@@ -14,7 +14,7 @@ export default function Home() {
     <div >
     <Titile title="Besting Booking app for moving and storage services" desc="find the best booking app for moving and storage services"/>
       <Header/>
-      <main className='   '>
+      <main >
         <div className='bg-master-cover-bk bg-cover'>
 
         <Cover className=""/>
@@ -28,8 +28,10 @@ export default function Home() {
 
         </div>
 
+        <div className='bg-masterLight-500 -mb-4 py-4'>
 
         <AllServiceList/>
+        </div>
       </main>
 
       <footer >

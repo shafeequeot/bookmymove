@@ -34,7 +34,7 @@ function Booking() {
 
   return (
     <div>
-    <div className='text-center text-lg md:text-3xl text-orange-500 uppercase'>Get a free Quote</div>
+    <div className='text-center text-lg md:text-3xl text-orange-400 uppercase'>Get a free Quote</div>
 
       {/* step 1 */}
 
