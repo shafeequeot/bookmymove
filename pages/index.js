@@ -12,7 +12,7 @@ import PopularServices from '../components/home/popularServices'
 export default function Home() {
   return (
     <div >
-    <Titile title="Besting Booking app for moving and storage services" desc="find the best booking app for moving and storage services"/>
+    <Titile title="Get free quote and Book your moving service in Dubai - UAE | Bookmymove" desc="Moving service start with AED 600| Apartment, Villa and Office move within UAE | International Relocation service to anywhere in the world"/>
       <Header/>
       <main >
         <div className='bg-master-cover-bk bg-cover'>
