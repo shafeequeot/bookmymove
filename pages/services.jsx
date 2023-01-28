@@ -36,7 +36,7 @@ function Services() {
      
 
                {
-                serviceList?.map(srv=>  <ImageCard img={srv.img} title={srv.title} desc={srv.desc} />)
+                serviceList?.map((srv, i)=>  <ImageCard key={i} img={srv.img} title={srv.title} desc={srv.desc} />)
                }
 
             </div>

@@ -30,7 +30,6 @@ function Booking() {
     if (!move.movingfrom == undefined || !move.movingfrom == "") setStep(5)
   }, [move])
 
-  console.log(move)
 
   return (
     <div>
