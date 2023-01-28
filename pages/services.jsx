@@ -10,19 +10,19 @@ function Services() {
 
     const serviceList = [
         {title: "Easy Online Booking",  img: "/img/onlinebooking.jpg",
-        desc: <div><p>At Bookmymove.ae, we understand that planning a move can be overwhelming. That's why we've made it easy to book your move   online. With just a few clicks, you can secure your move date and start planning your relocation.</p></div>},
+        desc: <div><p>At Bookmymove.ae&apos; we understand that planning a move can be overwhelming. That&rsquo;s why we&rsquo;ve made it easy to book your move   online. With just a few clicks, you can secure your move date and start planning your relocation.</p></div>},
         
         {title: "Free Quote and Survey",  img: "/img/freequote.jpg",
-        desc: <div><p>We offer a free quote service to all our customers. Simply fill out our online form or give us a call and we'll provide you with a detailed quote for your move. Our team will also conduct a free survey of your property to ensure a seamless move.</p></div>},
+        desc: <div><p>We offer a free quote service to all our customers. Simply fill out our online form or give us a call and we&rsquo;ll provide you with a detailed quote for your move. Our team will also conduct a free survey of your property to ensure a seamless move.</p></div>},
        
         {title: "Local and International Moving",  img: "/img/intl-move.jpg",
-        desc: <div><p>Whether you're moving within Dubai or relocating abroad, we've got you covered. Our team of professional movers are experienced in both local and international moving, and can handle all aspects of your move, including:</p> - Packing and loading<br/>
+        desc: <div><p>Whether you&rsquo;re moving within Dubai or relocating abroad, we&rsquo;ve got you covered. Our team of professional movers are experienced in both local and international moving, and can handle all aspects of your move, including:</p> - Packing and loading<br/>
         - Transportation and delivery <br/>
         - Custom clearance<br/>
         - Insurance</div>},
        
         {title: "Self-Storage Facilities",  img: "/img/storages.jpg",
-        desc: <div><p>In addition to moving services, we also offer self-storage facilities for your convenience. Our state-of-the-art storage units are:</p> - Secure<br/>  - Clean<br/> - Easily accessible <p>Perfect for storing your personal effects while you're between homes.</p></div>},
+        desc: <div><p>In addition to moving services, we also offer self-storage facilities for your convenience. Our state-of-the-art storage units are:</p> - Secure<br/>  - Clean<br/> - Easily accessible <p>Perfect for storing your personal effects while you&rsquo;re between homes.</p></div>},
     
     ]
     return (
