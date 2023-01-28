@@ -8,7 +8,7 @@ function Cover() {
 
       <div className='text-5xl md:text-9xl text-white'> BOOK  </div>
       <div className='text-5xl md:text-9xl text-white'> YOUR </div>
-      <div className='text-5xl md:text-9xl text-orange-400'> MOVE  </div>
+      <div className='text-5xl md:text-9xl text-yellow-400'> MOVE  </div>
     </div>
       <div className='w-full'>
 

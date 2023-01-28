@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import { FaWhatsapp, FaPhoneVolume, FaEnvelope, FaFacebookF, FaInstagram, FaTwitter,FaLinkedinIn } from "react-icons/fa";
 function Topbar() {
@@ -21,10 +22,10 @@ function Topbar() {
 
         </div>
         <div className='flex flex-row space-x-1 items-center gap-1'>
-          <p><FaFacebookF className='text-sm' color="white" /></p>
-          <p ><FaInstagram className='text-sm' color="white" /></p>
-          <p ><FaTwitter className='text-sm' color="white" /></p>
-          <p ><FaLinkedinIn className='text-sm' color="white" /></p>
+          <p className='cursor-pointer'><Link target="_blank" href="https://www.facebook.com/bookmymovedubai"><FaFacebookF className='text-sm' color="white" /></Link></p>
+          <p  className='cursor-pointer'><Link target="_blank" href="https://www.instagram.com/bookmymovedubai/"><FaInstagram className='text-sm' color="white" /></Link></p>
+          <p  className='cursor-pointer'><Link target="_blank" href="https://twitter.com/Bookmymovedxb"><FaTwitter className='text-sm' color="white" /></Link></p>
+          <p  className='cursor-pointer'><Link target="_blank" href="https://www.linkedin.com/company/90353719/"><FaLinkedinIn className='text-sm' color="white" /></Link></p>
         </div>
       </div>
     </div>
