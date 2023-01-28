@@ -20,7 +20,7 @@ function AboutUs() {
                 </p>
 
                 <p>
-                    Bookmymove.ae, your one-stop-solutions for all your moving and storage needs in the Dubai or all over United Arab Emirates. With decades of experience in the field, we understand the stress and complexities that come with relocating. That's why we've made it our mission to provide a hassle-free, easy option to book moving and storage services.
+                    Bookmymove.ae, your one-stop-solutions for all your moving and storage needs in the Dubai or all over United Arab Emirates. With decades of experience in the field, we understand the stress and complexities that come with relocating. That&rsquo;s why we&rsquo;ve made it our mission to provide a hassle-free, easy option to book moving and storage services.
                 </p><p>
                     At Bookmymove.ae, we specialize in providing professional movers for the moving and self-storage of personal effects. Our goal is to make the booking process as simple and stress-free as possible, so you can focus on the more important aspects of your move. With our online booking service, you can avoid the last-minute rush and negotiations with multiple movers.
                     </p><p>
