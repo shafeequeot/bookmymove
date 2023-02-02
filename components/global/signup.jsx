@@ -9,9 +9,11 @@ function Signup(props) {
     const auth = getAuth()
     const db = getFirestore()
     const [formResult, setFormResult] = useState({})
+    const [disable, setDisable] = useState(false)
 
     const { register, handleSubmit, watch, formState: { errors }, reset } = useForm();
     const onSubmit = data => {
+        setDisable(true)
 
     //  createUserWithEmailAndPassword(auth, data.email, data.password)
      
@@ -19,16 +21,35 @@ function Signup(props) {
     //     setFormResult({err:false, message: 'Your inquery has been sent. Our move consultant will contact you shortly'})
     //     console.log(user.user.uid)
         try{
-            const ref =  addDoc(collection(db, "users"),{
+
+        
+                if( !props.data.category) props.data.category = ""
+           
+            Promise.all([addDoc(collection(db, "users"),{
                 // id: user.user.uid,
                 userName: data?.name,
                 mobile: data?.mobile,
                 email: data?.email,
                 booking: props?.data
-            })
-            console.log(ref)
-            setFormResult({err:false, message: 'Your inquery has been sent. Our move consultant will contact you shortly'})
-            reset()
+            }),
+            fetch('/api/booking', {
+                method: 'POST',
+                headers: {
+                  'Accept': 'application/json, text/plain, */*',
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ userName: data?.name,
+                    mobile: data?.mobile,
+                    email: data?.email,
+                    booking: props?.data})
+              })
+        ]).then(res=>{
+            console.log(res)
+                setDisable(false)
+                setFormResult({err:false, message: 'Your inquery has been sent. Our move consultant will contact you shortly'})
+                reset()
+            }).catch(e=>{throw e})
+            
             // console.log(addRef)
         }catch(e){
             setFormResult({err:true, message: e.message || e})
@@ -68,7 +89,7 @@ function Signup(props) {
 
     <p className={formResult.err ? 'text-red-500 text-sm' : 'text-green-500 text-sm'}>{formResult.message?.toString()}</p>
 
-    <button   className='bg-blue-600 p-2 text-white hover:bg-orange-400 rounded-md w-full'>Sent</button>
+    <button disabled={disable}  className='bg-blue-600 p-2 text-white hover:bg-orange-400 rounded-md w-full'>Sent</button>
     </form>
     </div>
   )
