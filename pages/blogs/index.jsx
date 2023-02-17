@@ -1,8 +1,9 @@
 import React from 'react'
-import CoverImage from '../components/global/coverImage'
-import Footer from '../components/global/footer'
-import Header from '../components/global/header'
-import Titile from '../components/global/title'
+import CoverImage from '../../components/global/coverImage'
+import Footer from '../../components/global/footer'
+import Header from '../../components/global/header'
+import Titile from '../../components/global/title'
+import UltimateRelocationCheckLists from './ultimateRelocation'
 
 function Blogs() {
   return (
@@ -12,7 +13,7 @@ function Blogs() {
 
             <CoverImage img="/img/blogs.jpg" title="Our Blogs" desc="Ease the stress of relocation with the help of BookMyMove.ae. Our expert tips, resources, and tools will guide you through every step of the moving process. Trust us to make your move as smooth and effortless as possible" />
             <div className='container m-auto'>
-             
+             <UltimateRelocationCheckLists/>
             </div>
             
             <footer >

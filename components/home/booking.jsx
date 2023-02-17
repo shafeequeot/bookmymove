@@ -198,10 +198,10 @@ function Booking() {
 
         }
 
-        <div className='flex gap-4 justify-center p-4 '>
-          <IoIosArrowBack onClick={() => setStep(step <= 1 ? 1 : step - 1)} className='bg-masterBlue-500 cursor-pointer rounded-full text-3xl' color='gray' />
+        <div className='flex gap-4 justify-center p-4 text-white'>
+          <IoIosArrowBack onClick={() => setStep(step <= 1 ? 1 : step - 1)} className='bg-masterBlue-500 cursor-pointer rounded-full text-3xl' color='white' />
           <p>Step {step} of 5</p>
-          <IoIosArrowForward onClick={() => setStep(step >= 5 ? 5 : step + 1)} className='bg-masterBlue-500 cursor-pointer rounded-full text-3xl' color='gray' />
+          <IoIosArrowForward onClick={() => setStep(step >= 5 ? 5 : step + 1)} className='bg-masterBlue-500 cursor-pointer rounded-full text-3xl' color='white' />
         </div>
 
       </AnimatePresence>

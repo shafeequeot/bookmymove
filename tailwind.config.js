@@ -25,7 +25,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'master-cover-bk': "url('/img/dubaicover.jpg')",
+        'master-cover-bk': "url('/img/main_cover.png')",
       }
     },
   },
