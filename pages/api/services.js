@@ -1,6 +1,6 @@
 
 const menuItem = [
-    { href: 'international', label: 'Intnernational move' },
+    { href: 'international', label: 'International move' },
     { href: 'storage', label: 'Storage solutions' },
     { href: 'local', label: 'Local move' },
     { href: 'sea', label: 'Sea Export & Import' },

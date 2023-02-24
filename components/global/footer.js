@@ -1,7 +1,7 @@
 import React from 'react'
 import { GoLocation } from 'react-icons/go'
 import { BsTelephone, BsWhatsapp, BsEnvelopeOpen } from 'react-icons/bs'
-import { RiFacebookCircleLine, RiInstagramLine, RiLinkedinFill, RiTwitterFill } from 'react-icons/ri'
+import { RiFacebookCircleLine, RiInstagramLine, RiLinkedinFill, RiTwitterFill, RiYoutubeFill } from 'react-icons/ri'
 import Link from 'next/link'
 import menuItem from '../../pages/api/menu'
 import service from '../../pages/api/services'
@@ -53,10 +53,11 @@ function Footer() {
 
           <h4 className='text-masterLight-500 text-lg font-medium'>Follow us on</h4>
           <div className='flex flex-row  space-x-3 '>
-          <div className='cursor-pointer'> <Link target="_blank" href="https://www.facebook.com/bookmymovedubai"><RiFacebookCircleLine color='white' className='text-3xl'/></Link> </div>
-          <div className='cursor-pointer'> <Link target="_blank" href="https://www.instagram.com/bookmymovedubai/"><RiInstagramLine color='white' className='text-3xl' /></Link> </div>      
-          <div className='cursor-pointer'> <Link target="_blank" href="https://www.linkedin.com/company/90353719/"><RiLinkedinFill color='white' className='text-3xl' /></Link> </div>     
-          <div className='cursor-pointer'> <Link target="_blank" href="https://twitter.com/Bookmymovedxb"><RiTwitterFill color='white' className='text-3xl'/></Link>  </div>  
+          <div className='cursor-pointer'> <a target="_blank" href="https://www.facebook.com/bookmymovedubai" rel="noopener noreferrer"><RiFacebookCircleLine color='white' className='text-3xl'/></a> </div>
+          <div className='cursor-pointer'> <a target="_blank" href="https://www.instagram.com/bookmymovedubai/" rel="noopener noreferrer"><RiInstagramLine color='white' className='text-3xl' /></a> </div>      
+          <div className='cursor-pointer'> <a target="_blank" href="https://www.linkedin.com/company/90353719/" rel="noopener noreferrer"><RiLinkedinFill color='white' className='text-3xl' /></a> </div>     
+          <div className='cursor-pointer'> <a target="_blank" href="https://twitter.com/Bookmymovedxb" rel="noopener noreferrer"><RiTwitterFill color='white' className='text-3xl'/></a>  </div>  
+          <div className='cursor-pointer'> <a target="_blank" href="https://www.youtube.com/@bookmymove_uae" rel="noopener noreferrer"><RiYoutubeFill color='white' className='text-3xl'/></a>  </div>  
            </div>
         </div>
         <div className=''>

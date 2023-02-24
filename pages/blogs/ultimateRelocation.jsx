@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React, { useState } from 'react'
 import Heading from '../../components/global/heading'
 import Titile from '../../components/global/title'
@@ -26,7 +27,7 @@ function UltimateRelocationCheckLists() {
             <div className='flex'>
                 <div></div>
                 <div>
-                Moving can be an exciting and overwhelming experience, but with proper planning and preparation, it can also be a breeze. To help ensure a successful move, we&#x27;ve put together the ultimate relocation checklist, covering everything you need to know before you start packing.
+                <Link href='/'><a>Moving</a></Link> can be an exciting and overwhelming experience, but with proper planning and preparation, it can also be a breeze. To help ensure a successful move, we&#x27;ve put together the ultimate relocation checklist, covering everything you need to know before you start packing.
                 </div>
             </div>
            
@@ -50,10 +51,10 @@ function UltimateRelocationCheckLists() {
             <Image src="/img/moving tips.jpg" alt="Moving? do you know this?" width={1800} height={950} />
             <div>
             <p>
-            With this ultimate relocation checklist, you can ensure a successful and stress-free move. Whether you&#x27;re moving across town or across the country, Bookmymove can help make your move easier with comprehensive moving and storage services. Contact us today to learn more about our services and how we can help you with your next move.
+            With this ultimate relocation checklist, you can ensure a successful and stress-free move. Whether you&#x27;re moving across town or across the country, <Link href="/"><a>Bookmymove</a></Link>  can help make your move easier with comprehensive moving and storage services. Contact us today to learn more about our services and how we can help you with your next move.
             </p>
             <p>
-            Another important step in the relocation checklist is to create a moving budget. Moving can be expensive, and unexpected expenses can arise, so it&#x27;s important to set aside funds for all the costs associated with the move. In addition to the cost of hiring a moving company, you may also need to factor in the cost of packing supplies, storage, transportation, and other related expenses. Make sure to leave some wiggle room in your budget for any unforeseen costs that may arise, such as fees for rescheduling your move, or additional supplies or services that you may need.
+            Another important step in the relocation checklist is to create a moving budget. Moving can be expensive, and unexpected expenses can arise, so it&#x27;s important to set aside funds for all the costs associated with the move. In addition to the cost of hiring a moving company, you may also need to factor in the cost of packing supplies, storage, <a target="_blank" href="https://www.rta.ae/wps/portal/rta/ae/public-transport">transportation</a>, and other related expenses. Make sure to leave some wiggle room in your budget for any unforeseen costs that may arise, such as fees for rescheduling your move, or additional supplies or services that you may need.
             </p>
             </div>
             </div>
