@@ -13,7 +13,7 @@ function AboutUs() {
 
             <CoverImage img="/img/cool moving.jpg" title="About book my move services in Dubai" desc="We  proving website exclusively for Moving and Self Storage of personal effects in middle east. " />
             <div className='flex flex-col gap-4 container m-auto my-3'>
-                <Image src="/how_it_works.svg" width={1020} height={450}/>
+                <Image alt='cover images for book my move' src="/how_it_works.svg" width={1020} height={450}/>
                 <p>
 
                     Bookmymove is a service proving website exclusively for Moving and Self Storage of personal effects in middle east. Our goal is to book your move online in order to avoid last moment rush and negotiations with numerous movers. We offer an easy and free service to receive quote from the professional movers.

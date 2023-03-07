@@ -8,7 +8,7 @@ function CoverImage({title, desc, img}) {
     <h1 className='text-2xl uppercase'>{title}</h1>
     <span className='text-xs'>{desc}</span>
     </div>
-    <Image src={img}  width={2000} height={1250}/>
+    <Image src={img} alt={title?.toString()}  width={2000} height={1250}/>
     </div>
   )
 }

@@ -14,7 +14,7 @@ function PopularServices() {
             {
                 mostPopularServices.map(service =>
                     <div key={service.label} className='flex flex-col rounded shadow-md w-full p-2 md:p-4 bg-white' >
-                        <div ><Image src={service.icon} className=' object-cover overflow-hidden' width={530} height={250} /></div>
+                        <div ><Image src={service.icon} alt={service?.label?.toString()} className=' object-cover overflow-hidden' width={530} height={250} /></div>
                         <div className='w-full truncate'>{service.label}</div>
                     </div>
                 )
